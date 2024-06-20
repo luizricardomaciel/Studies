@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'coffe';
+    src: url('fonts/coffee_spark/CoffeeSpark.otf') format('opentype'), url('fonts/coffee_spark/CoffeeSpark.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* TIPOS DE FORMAT()
+        opentype (otf)
+        truetype (ttf)
+        embedded-opentype
+        truetype-aat (Apple Advanced Typrography)
+        svg 
