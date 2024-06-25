@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de caixa</title>
+    <style>
+        h1{
+            height: 300px;
+            width: 300px;
+            background-color: lightgray;
+            margin-bottom: 30px;
+
+            margin: 10px auto 40px;
+            
+            padding: 50px 60px 0px 20px ;
+            /* SIMPLIFICAÇÃO PADDING
+                Padding: top right bottom left;
+                Padding: 10px 20px == cima e baixo 10px esqueca direita 20px
+            */
+
+           border: black 10px solid;
+            /* SIMPLIFICAÇÃO
+                border: width style color;     
+            */
+
+            outline-width: 8px;
+            outline-color: blueviolet;
+            outline-style: dashed;
+            /* SIMPLIFICAÇÃO
+                outline: width style color;     
+            */
+        }
+
+        a{
+            border-width: 10px;
+            border-color: brown;
+            border-style: solid;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixas box-level</h1>
+    <p>Paragrafos também são box-level, mas os <a href="#">Links são exemplos de inlíne-level.</a></p>
+</body>
+</html>

@@ -1,36 +1,45 @@
+
 body{
-    background-color: rgb(34,34,34);
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h1#titulo{
+    font-family: 'idroid';
+    color: #1A5A37;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+h2{
+    text-align: left;
+    background: linear-gradient(to right,#8BCCA6, white);
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+header{
+    background: linear-gradient(to bottom,#3DDB83, #195936);
+    margin: auto;
     color: white;
-}
-
-main, header{
     text-align: center;
+    height: 160px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-input{
-    padding: 5px;
-    font-size: medium;
-    border-radius: 7px;
-    border: none;
-}
-
-#enviar:hover {
-    cursor: pointer;
-}
-
-select{
-    width: 150px;
+main > p{
+    text-indent: 2em;
+    text-align: left;
 }
 
 main{
-    margin-top: 100px;
+    background-color: white;
+    text-align: justify;
+    margin: auto;
+    width: 960px;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
-footer {
-    position: fixed;
-    bottom: 10px; /* Distância do fundo */
-    right: 10px; /* Distância da direita */
-    width: 100px; /* Largura do elemento */
-    padding: 10px;
-  }
-  
+
