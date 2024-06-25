@@ -1,11 +1,72 @@
+@charset "UTF-8";
 
 body{
     background-color: #84E1AD;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
+
+header{
+    background: linear-gradient(to bottom,#59B97A, #1A5A37);
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    height: 110px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+header > h1{
+    font-family: 'bebasnue', sans-serif;
+    font-size: 32px;
+    margin: 0px;
+}
+
+header > p{
+    text-align: center;
+    text-indent: 0px;
+    padding: 7px;
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    background-color: #59B97A;
+    transition: 1s;
+}
+
+
+nav{
+    background-color: #1A5A37;
+    padding: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+main{
+    background-color: white;
+    text-align: justify;
+    margin: auto;
+    width: 960px;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 1px ;
+}
+
 
 h2, h1#titulo{
     font-family: 'idroid';
+    color: #1A5A37;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+strong{
     color: #1A5A37;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
 }
@@ -18,28 +79,21 @@ h2{
     border-radius: 10px;
 }
 
-header{
-    background: linear-gradient(to bottom,#3DDB83, #195936);
-    margin: auto;
-    color: white;
-    text-align: center;
-    height: 160px;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-main > p{
+p{
     text-indent: 2em;
     text-align: left;
+    text-align: justify;
 }
 
-main{
-    background-color: white;
-    text-align: justify;
-    margin: auto;
-    width: 960px;
-    padding: 20px;
-    padding-bottom: 10px;
+footer > p{
+    color: rgba(0, 0, 0, 0.400);
     text-align: center;
+    
+}
+
+#linkedin{
+    text-decoration: none;
 }
 
 

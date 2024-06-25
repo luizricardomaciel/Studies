@@ -1,0 +1,16 @@
+
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 1px 1px black;
+    color: white;
+    transition: all 1s linear;
+}
+
+.quadrado:hover{
+    transform: scale(2);
+    margin-top: 100px;
+    margin-left: 100px;
+}   

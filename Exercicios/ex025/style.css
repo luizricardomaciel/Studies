@@ -1,0 +1,18 @@
+@media(max-width: 480px){
+    section{
+        flex-direction: column;
+    }
+
+    .area-vermelha{
+        background-color: brown;
+    }
+
+    .area-azul{
+        background-color: aqua;
+    }
+}
+
+section{
+    display: flex;
+}
+
